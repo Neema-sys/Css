@@ -1,0 +1,21 @@
+p{
+	text-align: center;
+}
+body{
+	font-family: arial
+}
+
+
+.drop{
+	float: left;
+}
+.ex{
+	padding-left: 20px;
+}
+.dot{
+	height: 20px;
+	width: 20px;
+	background-color: blue;
+	border-radius: 45px;
+	padding-left: 10px;
+}

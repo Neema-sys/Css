@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="lab2q5css.css">
+  <style type="text/css">
+    
+.division {
+  height: 100%;
+ /* width: 50%;*/
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 20px;
+}
+
+.leftdiv {
+  left: 0;
+  background-color:  #1f2e2e;
+  width: 60%;
+}
+
+.rightdiv {
+  right: 0;
+  background-color:  #00b386;
+  width: 40%;
+}
+
+::placeholder {
+  color: white;
+  }
+/*.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 50px;*/
+
+  </style>
+
+
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+
+ /* <div style="float: right;" class="column" >
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>*/
+
+  <div class="division leftdiv" style="scroll-behavior: none;">
+
+    <div class="leftdiv">
+
+      <div style="margin-left: 30px;margin-top: 30px;">
+        <img src="lab2q5pic1.PNG" width="150" height="50">
+       </div> 
+        <!--<p style="margin-top: 100px; margin-left: 30px; color:white; font-size: 45px;line-height: -3;">Welcome</p>
+
+        <p style=" color: grey;font-size: 25px;margin-left: 30px;margin-top:4px;line-height: 1.6">Register For a ERC account here</p>-->
+        <p style="margin-top: 100px; margin-left: 50px; color:white; font-size: 45px;">Welcome <br><label style="font-size: 20px; color: grey;font-size: 25px;">Register For a ERC account here</label></p>
+        <p style="margin-bottom: 20px;font-size: 15px; color:grey; margin-right: 50px;margin-left: 50px; line-height: 1.6;width: 150% ;">ERC grants are awarded through open competion to projects headed by starting and established researchers, irrespective of their origins, who are working or moving to work in Europe. The sole criterion for selection is scientific excellence. The aim here is to recognise the best ideas, and confer status and visibility on the best brains in Europe, while also attracting talent from abroad.</p>
+        <br>
+
+        <div>
+          <input type="button" class="button" value="REGISTER HERE">
+          <!--<button type="submit">REGISTER HERE</button>-->
+        </div>
+
+        <br><br><br><br><br><br><br><br>
+
+
+        <!--<div class="end">-->
+         <footer style="width: 150%;">
+          <span>CHOOSE LANGUAGE</span>
+          <span>HELP CENTER</span>
+          <span>ERC WEBSITE</span>
+          <span>ERC WORKSHOP</span>
+       </footer>
+        <!--</div>-->
+
+    </div>
+    </div>
+  </div>  
+
+
+
+
+        <!--right side-->
+
+        <div class="division rightdiv">
+        <div style="text-align: center;margin-top: 200px;color: white;margin-right: 300px; width: 80% ">
+          <p style="font-size: 35px" >Or login to your account</p> 
+
+          <div>
+            <label for="mail" style="color: white;"></label>
+            <input type="email" name="emaail" id="mail" placeholder="your email">
+
+            <input type="password" name="password" placeholder="password">
+          </div>
+
+        <br>
+          <input type="button" class="loginbutton" value="LOGIN">
+          <input type="button" class="forgotbutton" value="Forgot password">
+          
+  
+
+
+          
+        </div>
+        </div>
+
+
+
+    
+
+
+
+</body>
+</html>
